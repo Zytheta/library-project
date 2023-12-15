@@ -1,0 +1,57 @@
+[
+    {
+      "title": "Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "date_of_publication": "1954-07-29",
+      "page_length": 423,
+      "genre": "Fantasy",
+      "publisher": "George Allen & Unwin",
+      "summary": "The first part of the epic fantasy adventure of the Ring."
+    },
+    {
+      "title": "The Two Towers",
+      "author": "J.R.R. Tolkien",
+      "date_of_publication": "1954-11-11",
+      "page_length": 352,
+      "genre": "Fantasy",
+      "publisher": "George Allen & Unwin",
+      "summary": "The second installment in the saga of the Ring's journey."
+    },
+    {
+      "title": "The Return of the King",
+      "author": "J.R.R. Tolkien",
+      "date_of_publication": "1955-10-20",
+      "page_length": 416,
+      "genre": "Fantasy",
+      "publisher": "George Allen & Unwin",
+      "summary": "The final part of the iconic fantasy series."
+    },
+    {
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "date_of_publication": "1884-12-10",
+      "page_length": 366,
+      "genre": "Adventure",
+      "publisher": "Charles L. Webster And Company",
+      "summary": "The story of Huck's journey along the Mississippi River."
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "date_of_publication": "1949-06-08",
+      "page_length": 328,
+      "genre": "Dystopian",
+      "publisher": "Secker & Warburg",
+      "summary": "A chilling vision of a totalitarian future."
+    },
+    {
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "date_of_publication": "1945-08-17",
+      "page_length": 112,
+      "genre": "Political Satire",
+      "publisher": "Secker & Warburg",
+      "summary": "An allegorical tale portraying a society of farm animals."
+    }
+  ]
+  
