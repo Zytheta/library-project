@@ -1,21 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chris's Library</title>
-    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="icon"
+      href="./images/Double-J-Design-Ravenna-3d-Books.32.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Welcome to Chris's Library</h1>
+      <h1>Welcome to Chris's Library</h1>
     </header>
     <main>
-        <br>
-        <p>Here is the book button!</p>
-        <button type="button" onclick="addBook()" id="book-btn">Add a book</button>
+      <br />
+      <div class="add-a-book" id="add-a-book">
+        <p>Add a book to the library!</p>
+        <form action="https://httpbin.org/" method="post" id="book-form">
+          <label for="title">Title*:</label
+          ><input
+            type="text"
+            name="title"
+            id="title"
+            class="book-input"
+            required
+            placeholder="Journey to the West"
+          />
+          <label for="author">Author*:</label
+          ><input
+            type="text"
+            name="author"
+            id="author"
+            class="book-input"
+            required
+            placeholder="Wu Cheng'en"
+          />
+          <br />
+          <label for="date-of-publication"
+            >Date of publication (Year-Month-Day):</label
+          ><input
+            type="text"
+            name="date-of-publication"
+            id="date-of-publication"
+            class="book-input"
+            placeholder="1592-1-1"
+          />
+          <label for="page-length">Page Length:</label
+          ><input
+            type="text"
+            name="page-length"
+            id="page-length"
+            class="book-input"
+            placeholder="275"
+          />
+          <br />
+          <label for="genre">Genre:</label
+          ><select name="genre" id="genre" class="book-input">
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-fiction</option>
+            <option value="science-fiction">Science Fiction</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="adventure">Adventure</option>
+            <option value="dystopian">Dystopian</option>
+            <option value="political-satire">Political Satire</option>
+          </select>
+          <label for="publisher">Publisher:</label
+          ><input
+            type="text"
+            name="publisher"
+            id="publisher"
+            class="book-input"
+            placeholder="none"
+          />
+          <br />
+          <label for="summary">Summary*:</label
+          ><input
+            type="text"
+            name="summary"
+            id="summary"
+            class="book-input"
+            required
+            placeholder="This book is a Chinese classic tale that follows the adventures of the monk Xuanzang and his companions—Sun Wukong, Zhu Bajie, and Sha Wujing—as they undertake a perilous journey to retrieve Buddhist scriptures from the West, facing trials, demons, and learning profound lessons along the way."
+          />
+          <br />
+          <button type="submit" id="book-btn">Add a Book</button>
+          <button type="reset">Reset</button>
+        </form>
+        <br />
+        <span>Items with an * need to be filled.</span>
+      </div>
+      <br />
+      <div class="bookshelf-wrapper" id="bookshelf-wrapper">
+        <div class="bookshelf" id="bookshelf"></div>
+      </div>
     </main>
-    <footer></footer>
-</body>
+    <footer>
+      <h6>Thank you to The Odin Project for designing this assignment.</h6>
+    </footer>
+  </body>
 </html>
